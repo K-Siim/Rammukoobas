@@ -1,7 +1,15 @@
+import { Routes, Route, useLocation } from 'react-router-dom';
+import Navbar from './Components/Navbar';
+import Home from './Pages/Home';  
+import Footer from './Components/Footer';
 function App() {
   return (
     <>
-      <h1 className="text-red-500">S Stuudio</h1>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+      <Footer />
     </>
   )
 }

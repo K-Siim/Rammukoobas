@@ -1,0 +1,54 @@
+import { motion } from "framer-motion";
+
+export default function Hero() {
+  return (
+    <section className="relative flex items-center justify-center min-h-screen bg-gradient-to-br from-gray-50 via-white to-gray-100 text-black px-6">
+      <div className="absolute inset-0 bg-gradient-to-tr from-gray-200/30 via-white to-gray-300/20 animate-pulse opacity-40" />
+
+      <motion.div
+        initial={{ opacity: 0, y: 40 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+        className="relative z-10 max-w-4xl text-center space-y-6"
+      >
+        <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight">
+          Rammuklubi MTÜ
+        </h1>
+
+        <p className="text-lg md:text-xl leading-relaxed text-gray-800">
+          Rammuklubi MTÜ loodi 2021 aastal eesmärgiga tuua kokku jõutõstmise ja
+          rammualade inimesed Tartus ja lähiümbruses ning luua klubi liikmetele
+          spetsiaalne treeningruum, mis on täna tuntud kui Rammukoobas.
+        </p>
+
+        <p className="text-lg md:text-xl leading-relaxed text-gray-700">
+          Aktiivsemad klubi liikmed korraldavad võistlusi ja treeningpäevi
+          Rammukoopas, nendest üritustest leiab infot meie Facebook ja Instagrami
+          leheküljelt. Samuti käivad klubi liikmed ise võistlemas nii Eestis kui
+          välisriikides.
+        </p>
+
+        <p className="text-lg md:text-xl leading-relaxed text-gray-600">
+          Läbi oma tegevuse tahame anda panuse jõu- ja rammuspordi kasvu ning
+          levikusse Eestis. Klubi toimib tänu liikmete toetustele ja annetustele.
+          Rammukoopa sisustuse ja inventari on klubi liikmed ise hankinud või on
+          saadud see läbi toetajate. Selle eest ütleme:{" "}
+          <span className="font-bold text-black">"AITÄH!"</span>
+        </p>
+
+            <motion.div
+          initial={{ scale: 0.8, opacity: 0 }}
+          animate={{ scale: 1, opacity: 1 }}
+          transition={{ delay: 0.5, duration: 0.8 }}
+          className="mt-8 p-6 bg-white/70 backdrop-blur-md border border-gray-300 rounded-2xl shadow-xl"
+        >
+          <h2 className="text-xl font-bold text-gray-900">Toeta meid!</h2>
+          <p className="mt-2 text-gray-700">Rammuklubi MTÜ</p>
+          <p className="text-gray-900 font-mono">
+            EE2722200221077993385
+          </p>
+        </motion.div>
+      </motion.div>
+    </section>
+  );
+}
