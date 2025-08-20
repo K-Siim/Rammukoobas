@@ -20,7 +20,7 @@ export default function Cards() {
     {
       title: "Galerii",
       description: "Sirvi pilte meie treeningutest ja üritustest.",
-      image: "/rammukoobas.svg",
+      image: "/Img.png",
       path: "/gallery"
     },
     {
