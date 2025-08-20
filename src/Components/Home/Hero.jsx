@@ -35,19 +35,6 @@ export default function Hero() {
           saadud see läbi toetajate. Selle eest ütleme:{" "}
           <span className="font-bold text-black">"AITÄH!"</span>
         </p>
-
-            <motion.div
-          initial={{ scale: 0.8, opacity: 0 }}
-          animate={{ scale: 1, opacity: 1 }}
-          transition={{ delay: 0.5, duration: 0.8 }}
-          className="mt-8 p-6 bg-white/70 backdrop-blur-md border border-gray-300 rounded-2xl shadow-xl"
-        >
-          <h2 className="text-xl font-bold text-gray-900">Toeta meid!</h2>
-          <p className="mt-2 text-gray-700">Rammuklubi MTÜ</p>
-          <p className="text-gray-900 font-mono">
-            EE2722200221077993385
-          </p>
-        </motion.div>
       </motion.div>
     </section>
   );
