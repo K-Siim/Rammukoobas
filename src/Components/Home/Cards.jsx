@@ -1,28 +1,39 @@
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
 export default function Cards() {
+  const navigate = useNavigate();
+  
   const cards = [
     {
       title: "Liikmed",
       description: "Tutvu meie klubi liikmetega ja nende saavutustega.",
-      image: "/rammukoobas.svg", 
+      image: "/rammukoobas.svg",
+      path: "/squad"
     },
     {
       title: "Hinnakiri",
       description: "Vaata liikmelisuse ja treeningute hindu.",
       image: "/hinnakirjale.jpg",
+      path: "/prices"
     },
     {
       title: "Galerii",
       description: "Sirvi pilte meie treeningutest ja üritustest.",
       image: "/rammukoobas.svg",
+      path: "/gallery"
     },
     {
       title: "Merch",
       description: "Osta meie merch.",
       image: "/rammukoobas.svg",
+      path: "/merch"
     },
   ];
+
+  const handleCardClick = (path) => {
+    navigate(path);
+  };
 
   return (
     <section className="py-16 px-6 bg-gray-50">
@@ -32,6 +43,7 @@ export default function Cards() {
             key={idx}
             whileHover={{ scale: 1.03 }}
             className="relative group cursor-pointer rounded-2xl overflow-hidden shadow-lg w-full"
+            onClick={() => handleCardClick(card.path)}
           >
             <div className="w-full h-80 md:h-96 lg:h-100">
               <img
