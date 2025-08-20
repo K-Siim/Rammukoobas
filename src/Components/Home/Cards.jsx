@@ -25,7 +25,7 @@ export default function Cards() {
     },
     {
       title: "Merch",
-      description: "Osta meie merch.",
+      description: "Osta meie merchi.",
       image: "/rammukoobas.svg",
       path: "/merch"
     },
