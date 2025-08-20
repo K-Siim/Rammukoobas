@@ -1,12 +1,20 @@
 import { motion } from "framer-motion";
 
 const events = [
+    {
+        title: "Eesti Rammumees ja Rammunaine 2025 Mehed ja naised avatud klass - Tarmo Haua pildid",
+        link: "https://photos.google.com/share/AF1QipOFwE6APx6IHzIZcdGlrdhWtmkmmV5DF1MWFonuxATpIkA0PDcl1FO7WYmFIC6zZg?key=ZGVQN1BscnE0RWVzcVJINEphYlNndlloVmpCQjdn",
+      },
+    {
+        title: "Eesti Rammumees ja Rammunaine 2025 (U23) ja (U105) - Tarmo Haua pildid",
+        link: "https://photos.google.com/share/AF1QipMn3kRJ2bMy-fYvuZo18YTrFD3Eqlf6tJx-dNSaQD9NTI3xMRuAxtSYehyxvuNQcQ?key=cEp1bFhWaEdlb1Q2eThPbnIxR2xTOFdBRndKaVhR",
+      },
   {
-    title: "Eesti Rammumees ja Rammunaine 2024 Tarmo Haua pildid",
+    title: "Eesti Rammumees ja Rammunaine 2024 - Tarmo Haua pildid",
     link: "https://photos.google.com/share/AF1QipMDe2Y6ykvpAm2xw2fq6AnrYPUuAPIOCYVjE9o5HpDFdlOMQ1gI1abz6Lnnq4qSug?key=M0pFdVVGalNlcjdESzMwbkg4eTQwVGZwOWIzUW9n",
   },
   {
-    title: "Eesti Rammumees ja Rammunaine 2024 Urmo Paju pildid",
+    title: "Eesti Rammumees ja Rammunaine 2024 - Urmo Paju pildid",
     link: "https://photos.google.com/share/AF1QipNKdl3rffQjyBlUJzLq7T69oXb0_9SchsK1Bvv6FMtGUEOnGu9_e9DtCUqNuLMNTw?key=U3V2cDRnRGFBWF85dXdWU0daaGtvQ3JsQTRoSk53",
   },
   {
