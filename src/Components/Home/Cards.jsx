@@ -5,18 +5,22 @@ export default function Cards() {
     {
       title: "Liikmed",
       description: "Tutvu meie klubi liikmetega ja nende saavutustega.",
+      image: "/rammukoobas.svg", 
     },
     {
       title: "Hinnakiri",
       description: "Vaata liikmelisuse ja treeningute hindu.",
+      image: "/hinnakirjale.jpg",
     },
     {
       title: "Galerii",
       description: "Sirvi pilte meie treeningutest ja üritustest.",
+      image: "/rammukoobas.svg",
     },
     {
       title: "Merch",
       description: "Osta meie merch.",
+      image: "/rammukoobas.svg",
     },
   ];
 
@@ -29,19 +33,16 @@ export default function Cards() {
             whileHover={{ scale: 1.03 }}
             className="relative group cursor-pointer rounded-2xl overflow-hidden shadow-lg w-full"
           >
-            {/* Suurem kaart, pilt näeb ilusam välja */}
             <div className="w-full h-80 md:h-96 lg:h-100">
               <img
-                src="/rammukoobas.svg"
+                src={card.image} // nüüd iga kaardi oma pilt
                 alt={card.title}
                 className="w-full h-full object-cover transform group-hover:scale-110 transition duration-500"
               />
             </div>
 
-            {/* Tume overlay hoveril */}
             <div className="absolute inset-0 bg-black/40 group-hover:bg-black/60 transition duration-500" />
 
-            {/* Tekst overlay */}
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
               <h3 className="text-2xl font-bold text-white drop-shadow-lg mb-2">
                 {card.title}
