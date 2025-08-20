@@ -36,7 +36,7 @@ export default function Cards() {
   };
 
   return (
-    <section className="py-16 px-6 bg-gray-50">
+    <section className="pt-5 pb-30 px-6 bg-gray-50 -mt-8">
       <div className="max-w-7xl mx-auto grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-4">
         {cards.map((card, idx) => (
           <motion.div

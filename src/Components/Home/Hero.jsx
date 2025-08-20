@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="relative flex items-center justify-center min-h-screen bg-gradient-to-br from-gray-50 via-white to-gray-100 text-black px-6">
+    <section className="relative flex items-center justify-center min-h-screen bg-gradient-to-br from-gray-50 via-white to-gray-100 text-black px-6 -mt-20 sm:-mt-24 md:-mt-28 lg:-mt-32">
       <div className="absolute inset-0 bg-gradient-to-tr from-gray-200/30 via-white to-gray-300/20 animate-pulse opacity-40" />
 
       <motion.div
