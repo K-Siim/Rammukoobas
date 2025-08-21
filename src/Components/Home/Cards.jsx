@@ -8,7 +8,7 @@ export default function Cards() {
     {
       title: "Liikmed",
       description: "Tutvu meie klubi liikmetega ja nende saavutustega.",
-      image: "/rammukoobas.svg",
+      image: "/4.svg",
       path: "/squad"
     },
     {
@@ -20,13 +20,13 @@ export default function Cards() {
     {
       title: "Galerii",
       description: "Sirvi pilte meie treeningutest ja üritustest.",
-      image: "/Img.png",
+      image: "/Galerii.svg",
       path: "/gallery"
     },
     {
       title: "Merch",
       description: "Osta meie merchi.",
-      image: "/rammukoobas.svg",
+      image: "/6.svg",
       path: "/merch"
     },
   ];

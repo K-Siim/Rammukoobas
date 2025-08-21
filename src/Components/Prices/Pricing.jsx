@@ -3,33 +3,33 @@ import { motion } from "framer-motion";
 const priceCards = [
   {
     title: "TÕSINE RAMMUKARU",
-    description: "24/7 ligipääs ÄPIGA – ainult kõige tugevamatele, kes elavad jõusaalis!",
+    description: "24/7 ligipääs ÄPIGA – ainult kõige motiveeritumad, kes elavad jõusaalis!",
     price: "€50.00",
-    image: "/rammukoobas.svg",
+    image: "/tosine.svg",
   },
   {
     title: "NOOR KARU",
     description: "24/7 ligipääs ÄPIGA (13–18a) – kasvav jõud, tugev algus.",
     price: "€25.00",
-    image: "/rammukoobas.svg",
+    image: "/noor.svg",
   },
   {
     title: "ÜHISKARU",
     description: "1x nädalas ligipääs ÄPIGA (ühistrennid) – koos on alati lõbusam rammu koguda.",
     price: "€25.00",
-    image: "/rammukoobas.svg",
+    image: "/yhis.svg",
   },
   {
     title: "RÄNDKARU",
     description: "Ühekordne ligipääs – võimalus proovida või treenida sobival ajal.",
     price: "€5.00",
-    image: "/rammukoobas.svg",
+    image: "/rand.svg",
   },
   {
     title: "KARUALGE",
     description: "13a ja nooremad tasuta (vanemlik järelvalve vajalik) – esimene samm rammu poole.",
     price: "€0.00",
-    image: "/rammukoobas.svg",
+    image: "/alge.svg",
   },
 ];
 
