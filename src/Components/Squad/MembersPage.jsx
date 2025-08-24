@@ -20,6 +20,35 @@ const MembersPage = () => {
         "2024 - SCL U130 maailmameister",
         "2025 - EMV 1 koht"
       ]
+    },
+    {
+      id: 2,
+      name: "Markus Tank",
+      description: "Tulevikulootus ja paljude Eesti rekordite omanik",
+      image: "/Tank.jpg",
+      coach: "Rauno Heinla",
+      nationality: "🇪🇪 Eesti",
+      achievements: [
+        "2023 - EMV 2 koht",
+        "2023 - Palgi surumise Eesti meister",
+        "2024 - EMV 1 koht",
+        "2024 - Pärnu rammumees 2 koht",
+        "2025 - Hollandi strongman 2 koht",
+        "2025 - EMV 1 koht"
+      ]
+    },
+    {
+      id: 3,
+      name: "Kalev Mettus",
+      description: "Kalev teeb klubi sotsiaalmeedia kontenti ja tema kaudu on paljud tee Rammukoopasse leidnud",
+      image: "/Kalev.jpg",
+      coach: "Treenib iseseisvalt",
+      nationality: "🇪🇪 Eesti",
+      achievements: [
+        "2023 - Palgi surumise 3 koht",
+        "2024 - Palgi surumise 2 koht",
+        "2025 - EMV 2 koht"
+      ]
     }
   ];
 
@@ -28,7 +57,7 @@ const MembersPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-500 text-white relative overflow-hidden">
+    <div className="min-h-screen bg-black text-white relative overflow-hidden">
       
       <div className="absolute inset-0 bg-gradient-to-br from-gray-900/40 via-black to-gray-800/30"></div>
       <div className="absolute inset-0 opacity-30">
@@ -41,10 +70,10 @@ const MembersPage = () => {
           <div className="text-center mb-20 space-y-8">
             <div className="relative inline-block">
               <h1 className="text-7xl sm:text-8xl md:text-9xl font-black bg-gradient-to-r from-white via-gray-100 to-white bg-clip-text text-transparent tracking-widest drop-shadow-2xl">
-                Liikmed
+                EESTI
               </h1>
               <div className="absolute inset-0 text-7xl sm:text-8xl md:text-9xl font-black text-white/5 blur-2xl animate-pulse">
-                Liikmed
+                EESTI
               </div>
             </div>
             
@@ -52,10 +81,13 @@ const MembersPage = () => {
               <div className="h-3 w-48 bg-gradient-to-r from-transparent via-white to-transparent rounded-full animate-pulse shadow-lg shadow-white/40"></div>
             </div>
             
-           
+            <h2 className="text-4xl md:text-5xl font-black text-gray-100 tracking-wider mb-4">
+              JÕUMEHED
+            </h2>
             
             <p className="text-xl text-gray-300 max-w-5xl mx-auto leading-relaxed">
-            Rammukoopa parimad jõumehed ja -naised on oma võimsuse ja vankumatu tahtega tõestanud, et ka väikesest rahvast võivad sirguda maailma tugevaimad. Kliki kaardil ja avasta nende suurimad saavutused.
+              Eesti parimad jõumehed, kelle võimsus ja tahe on tõestanud, et väikesest rahvast võivad tulla maailma tugevaimad mehed. 
+              Kliki kaardil, et näha nende suurimaid saavutusi.
             </p>
           </div>
 
@@ -65,7 +97,7 @@ const MembersPage = () => {
             {members.map((member) => (
               <div
                 key={member.id}
-                className="group relative h-96 cursor-pointer perspective-1000"
+                className="group relative h-96 cursor-pointer perspective-1000 mb-8"
                 onMouseEnter={() => setHoveredCard(member.id)}
                 onMouseLeave={() => setHoveredCard(null)}
                 onClick={() => handleCardClick(member.id)}
