@@ -5,10 +5,8 @@ export default function Hero() {
     <section className="relative bg-gradient-to-br from-gray-50 via-white to-gray-100 text-black px-6 
   pt-4 sm:pt-12 md:pt-16 lg:pt-20 pb-10">
 
-      {/* Taustakiht */}
       <div className="absolute inset-0 bg-gradient-to-tr from-gray-200/30 via-white to-gray-300/20 animate-pulse opacity-40" />
 
-      {/* Sisu */}
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
