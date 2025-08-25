@@ -70,7 +70,7 @@ const MembersPage = () => {
       id: 5,
       name: "Henry Rosin",
       description: "Rammukoopa logo ja disaini looja. Kõige raskem Rammukoopa rammumees",
-      image: "/henry.jpg",
+      image: "/Henry.jpg",
       coach: "Treenib iseseisvalt",
       nationality: "🇪🇪 Eesti",
       achievements: [
@@ -82,7 +82,7 @@ const MembersPage = () => {
       id: 6,
       name: "Cäroly Paatsi",
       description: "Esimene ja hetkel ainuke õrnema soo esindaja. Lootustandev rammunaine",
-      image: "/caroly.jpg",
+      image: "/Caroly.jpg",
       coach: "Treenib iseseisvalt",
       nationality: "🇪🇪 Eesti",
       achievements: [
@@ -95,7 +95,7 @@ const MembersPage = () => {
       id: 7,
       name: "Enrike Eensalu",
       description: "Ainuke diagnoosiga Rammukoopa rammumees. 2020 aastal diagnoositi psühhootiline häire skisofreenia sümptomitega. Enrike on ehe näide, et rasked ajad ei takista trenni tegemist ja on meie klubi värvikas liige",
-      image: "/enrike.jpg",
+      image: "/Enrike.jpg",
       coach: "Treenib iseseisvalt",
       nationality: "🇪🇪 Eesti",
       achievements: [
@@ -106,8 +106,8 @@ const MembersPage = () => {
       id: 8,
       name: "Kaspar Narits",
       description: "Klubi kehatohter, massöör ja tulevikus ka treener?",
-      image: "/kaspar_narits.jpg",
-      coach: "Treenib iseseisvalt",
+      image: "/Kasparix.jpg",
+      coach: "Treenib iseseisvalt",  
       nationality: "🇪🇪 Eesti",
       achievements: [
         "2024 - Jõuspordi sarja võitja"
@@ -117,7 +117,7 @@ const MembersPage = () => {
       id: 9,
       name: "Hendrik Hiiemäe",
       description: "Tulevikulootus",
-      image: "/hendrik.jpg",
+      image: "/Hendrik.jpg",
       coach: "Rauno Heinla",
       nationality: "🇪🇪 Eesti",
       achievements: [
@@ -128,7 +128,7 @@ const MembersPage = () => {
       id: 10,
       name: "Kaspar Raudsepp",
       description: "Tulevikulootus",
-      image: "/kaspar_raudsepp.jpg",
+      image: "/Kaspar.jpg",
       coach: "Treenib iseseisvalt",
       nationality: "🇪🇪 Eesti",
       achievements: [
