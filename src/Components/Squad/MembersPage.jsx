@@ -179,10 +179,10 @@ const MembersPage = () => {
         <div className="text-center mb-20 space-y-8">
           <div className="relative inline-block">
             <h1 className="text-7xl sm:text-8xl md:text-9xl font-black bg-gradient-to-r from-gray-900 via-gray-700 to-gray-900 bg-clip-text text-transparent tracking-widest drop-shadow-2xl">
-              EESTI
+              Liikmed
             </h1>
             <div className="absolute inset-0 text-7xl sm:text-8xl md:text-9xl font-black text-gray-900/5 blur-2xl animate-pulse">
-              EESTI
+              Liikmed
             </div>
           </div>
           
@@ -190,13 +190,9 @@ const MembersPage = () => {
             <div className="h-3 w-48 bg-gradient-to-r from-transparent via-gray-900 to-transparent rounded-full animate-pulse shadow-lg shadow-gray-900/40"></div>
           </div>
           
-          <h2 className="text-4xl md:text-5xl font-black text-gray-800 tracking-wider mb-4">
-            JÕUMEHED
-          </h2>
           
           <p className="text-xl text-gray-600 max-w-5xl mx-auto leading-relaxed">
-            Eesti parimad jõumehed, kelle võimsus ja tahe on tõestanud, et väikesest rahvast võivad tulla maailma tugevaimad mehed. 
-            Kliki kaardil, et näha nende suurimaid saavutusi.
+          Rammukoopa parimad jõumehed ja -naised on oma võimsuse ja vankumatu tahtega tõestanud, et ka väikesest rahvast võivad sirguda maailma tugevaimad. Kliki kaardil ja avasta nende suurimad saavutused.
           </p>
         </div>
 
