@@ -179,10 +179,10 @@ const MembersPage = () => {
         <div className="text-center mb-20 space-y-8">
           <div className="relative inline-block">
             <h1 className="text-7xl sm:text-8xl md:text-9xl font-black bg-gradient-to-r from-gray-900 via-gray-700 to-gray-900 bg-clip-text text-transparent tracking-widest drop-shadow-2xl">
-              Liikmed
+              EESTI
             </h1>
             <div className="absolute inset-0 text-7xl sm:text-8xl md:text-9xl font-black text-gray-900/5 blur-2xl animate-pulse">
-              Liikmed
+              EESTI
             </div>
           </div>
           
@@ -190,10 +190,13 @@ const MembersPage = () => {
             <div className="h-3 w-48 bg-gradient-to-r from-transparent via-gray-900 to-transparent rounded-full animate-pulse shadow-lg shadow-gray-900/40"></div>
           </div>
           
-          
+          <h2 className="text-4xl md:text-5xl font-black text-gray-800 tracking-wider mb-4">
+            JÕUMEHED
+          </h2>
           
           <p className="text-xl text-gray-600 max-w-5xl mx-auto leading-relaxed">
-          Rammukoopa parimad jõumehed ja -naised on oma võimsuse ja vankumatu tahtega tõestanud, et ka väikesest rahvast võivad sirguda maailma tugevaimad. Kliki kaardil ja avasta nende suurimad saavutused.
+            Eesti parimad jõumehed, kelle võimsus ja tahe on tõestanud, et väikesest rahvast võivad tulla maailma tugevaimad mehed. 
+            Kliki kaardil, et näha nende suurimaid saavutusi.
           </p>
         </div>
 
@@ -203,20 +206,33 @@ const MembersPage = () => {
           {members.map((member) => (
             <div
               key={member.id}
-              className="group relative h-96 cursor-pointer mb-8 perspective-1000"
+              className="group relative h-96 cursor-pointer mb-8"
               onMouseEnter={() => setHoveredCard(member.id)}
               onMouseLeave={() => setHoveredCard(null)}
               onClick={() => handleCardClick(member.id)}
+              style={{ perspective: '1000px' }}
             >
               
               <div className="absolute -inset-2 bg-gradient-to-r from-gray-900/20 via-gray-600/20 to-gray-900/20 rounded-2xl blur opacity-0 group-hover:opacity-100 transition-all duration-700 animate-pulse"></div>
               
               
-              <div className={`relative w-full h-full transition-all duration-700 ease-in-out transform-style-preserve-3d ${
-                flippedCard === member.id ? 'rotate-y-180' : ''
-              }`}>
+              <div 
+                className="relative w-full h-full transition-all duration-700 ease-in-out"
+                style={{
+                  transformStyle: 'preserve-3d',
+                  transform: flippedCard === member.id ? 'rotateY(180deg)' : 'rotateY(0deg)',
+                  WebkitTransformStyle: 'preserve-3d',
+                  WebkitTransform: flippedCard === member.id ? 'rotateY(180deg)' : 'rotateY(0deg)'
+                }}
+              >
                 
-                <div className="absolute inset-0 w-full h-full backface-hidden">
+                <div 
+                  className="absolute inset-0 w-full h-full rounded-2xl"
+                  style={{ 
+                    backfaceVisibility: 'hidden',
+                    WebkitBackfaceVisibility: 'hidden'
+                  }}
+                >
                   <div className="relative bg-white/95 backdrop-blur-md rounded-2xl overflow-hidden border border-gray-300/60 h-full transform transition-all duration-500 group-hover:-translate-y-2 group-hover:shadow-2xl group-hover:shadow-gray-900/10 flex">
                     
                     
@@ -277,7 +293,15 @@ const MembersPage = () => {
                 </div>
 
                 
-                <div className="absolute inset-0 w-full h-full backface-hidden rotate-y-180">
+                <div 
+                  className="absolute inset-0 w-full h-full rounded-2xl"
+                  style={{ 
+                    backfaceVisibility: 'hidden',
+                    WebkitBackfaceVisibility: 'hidden',
+                    transform: 'rotateY(180deg)',
+                    WebkitTransform: 'rotateY(180deg)'
+                  }}
+                >
                   <div className="relative bg-gray-100/95 backdrop-blur-md rounded-2xl overflow-hidden border border-gray-300/60 h-full p-6 flex flex-col">
                     
                     
@@ -335,19 +359,7 @@ const MembersPage = () => {
 
       
       <style jsx>{`
-        .perspective-1000 {
-          perspective: 1000px;
-        }
-        .transform-style-preserve-3d {
-          transform-style: preserve-3d;
-        }
-        .backface-hidden {
-          -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-        }
-        .rotate-y-180 {
-          transform: rotateY(180deg);
-        }
+        /* Remove CSS classes as we're using inline styles for better mobile support */
         .scrollbar-thin::-webkit-scrollbar {
           width: 4px;
         }
@@ -357,25 +369,6 @@ const MembersPage = () => {
         }
         .scrollbar-track-gray-200::-webkit-scrollbar-track {
           background-color: rgb(229 231 235);
-        }
-        
-        /* Mobile and tablet optimizations */
-        @media (max-width: 768px) {
-          .perspective-1000 {
-            perspective: 800px;
-          }
-          .transform-style-preserve-3d {
-            transform-style: preserve-3d;
-            -webkit-transform-style: preserve-3d;
-          }
-          .rotate-y-180 {
-            transform: rotateY(180deg);
-            -webkit-transform: rotateY(180deg);
-          }
-          .backface-hidden {
-            -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
-          }
         }
       `}</style>
     </section>
