@@ -206,32 +206,23 @@ const MembersPage = () => {
           {members.map((member) => (
             <div
               key={member.id}
-              className="group relative h-96 cursor-pointer mb-8"
+              className="group relative h-96 cursor-pointer mb-8 overflow-hidden"
               onMouseEnter={() => setHoveredCard(member.id)}
               onMouseLeave={() => setHoveredCard(null)}
               onClick={() => handleCardClick(member.id)}
-              style={{ perspective: '1000px' }}
             >
               
               <div className="absolute -inset-2 bg-gradient-to-r from-gray-900/20 via-gray-600/20 to-gray-900/20 rounded-2xl blur opacity-0 group-hover:opacity-100 transition-all duration-700 animate-pulse"></div>
               
               
-              <div 
-                className="relative w-full h-full transition-all duration-700 ease-in-out"
-                style={{
-                  transformStyle: 'preserve-3d',
-                  transform: flippedCard === member.id ? 'rotateY(180deg)' : 'rotateY(0deg)',
-                  WebkitTransformStyle: 'preserve-3d',
-                  WebkitTransform: flippedCard === member.id ? 'rotateY(180deg)' : 'rotateY(0deg)'
-                }}
-              >
+              <div className="relative w-full h-full">
                 
                 <div 
-                  className="absolute inset-0 w-full h-full rounded-2xl"
-                  style={{ 
-                    backfaceVisibility: 'hidden',
-                    WebkitBackfaceVisibility: 'hidden'
-                  }}
+                  className={`absolute inset-0 w-full h-full transition-all duration-500 ease-in-out ${
+                    flippedCard === member.id 
+                      ? 'opacity-0 transform translate-x-full pointer-events-none' 
+                      : 'opacity-100 transform translate-x-0'
+                  }`}
                 >
                   <div className="relative bg-white/95 backdrop-blur-md rounded-2xl overflow-hidden border border-gray-300/60 h-full transform transition-all duration-500 group-hover:-translate-y-2 group-hover:shadow-2xl group-hover:shadow-gray-900/10 flex">
                     
@@ -294,13 +285,11 @@ const MembersPage = () => {
 
                 
                 <div 
-                  className="absolute inset-0 w-full h-full rounded-2xl"
-                  style={{ 
-                    backfaceVisibility: 'hidden',
-                    WebkitBackfaceVisibility: 'hidden',
-                    transform: 'rotateY(180deg)',
-                    WebkitTransform: 'rotateY(180deg)'
-                  }}
+                  className={`absolute inset-0 w-full h-full transition-all duration-500 ease-in-out ${
+                    flippedCard === member.id 
+                      ? 'opacity-100 transform translate-x-0' 
+                      : 'opacity-0 transform -translate-x-full pointer-events-none'
+                  }`}
                 >
                   <div className="relative bg-gray-100/95 backdrop-blur-md rounded-2xl overflow-hidden border border-gray-300/60 h-full p-6 flex flex-col">
                     
@@ -311,7 +300,7 @@ const MembersPage = () => {
                     </div>
 
                     
-                    <div className="flex-1 overflow-y-auto space-y-3 mb-6 pr-2 scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-200">
+                    <div className="flex-1 overflow-y-auto space-y-3 mb-6 pr-2">
                       {member.achievements.length > 0 ? (
                         member.achievements.map((achievement, index) => (
                           <div 
@@ -352,14 +341,10 @@ const MembersPage = () => {
           ))}
           </div>
         </div>
-
-        
-        
       </div>
 
       
       <style jsx>{`
-        /* Remove CSS classes as we're using inline styles for better mobile support */
         .scrollbar-thin::-webkit-scrollbar {
           width: 4px;
         }
