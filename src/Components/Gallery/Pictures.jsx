@@ -2,15 +2,15 @@ import { motion } from "framer-motion";
 
 const events = [
     {
-        title: "Eesti Rammumees ja Rammunaine 2025 Mehed ja naised avatud klass - Tarmo Haua pildid",
+        title: "Eesti Rammumees ja Rammunaine 2025 Mehed ja naised avatud klass - Tarmo Haud pildid",
         link: "https://photos.google.com/share/AF1QipOFwE6APx6IHzIZcdGlrdhWtmkmmV5DF1MWFonuxATpIkA0PDcl1FO7WYmFIC6zZg?key=ZGVQN1BscnE0RWVzcVJINEphYlNndlloVmpCQjdn",
       },
     {
-        title: "Eesti Rammumees ja Rammunaine 2025 (U23) ja (U105) - Tarmo Haua pildid",
+        title: "Eesti Rammumees ja Rammunaine 2025 (U23) ja (U105) - Tarmo Haud pildid",
         link: "https://photos.google.com/share/AF1QipMn3kRJ2bMy-fYvuZo18YTrFD3Eqlf6tJx-dNSaQD9NTI3xMRuAxtSYehyxvuNQcQ?key=cEp1bFhWaEdlb1Q2eThPbnIxR2xTOFdBRndKaVhR",
       },
   {
-    title: "Eesti Rammumees ja Rammunaine 2024 - Tarmo Haua pildid",
+    title: "Eesti Rammumees ja Rammunaine 2024 - Tarmo Haud pildid",
     link: "https://photos.google.com/share/AF1QipMDe2Y6ykvpAm2xw2fq6AnrYPUuAPIOCYVjE9o5HpDFdlOMQ1gI1abz6Lnnq4qSug?key=M0pFdVVGalNlcjdESzMwbkg4eTQwVGZwOWIzUW9n",
   },
   {

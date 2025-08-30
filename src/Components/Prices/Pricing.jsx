@@ -26,7 +26,7 @@ const priceCards = [
     image: "/rand.svg",
   },
   {
-    title: "KARUALGE",
+    title: "MÕMMIK",
     description: "13a ja nooremad tasuta (vanemlik järelvalve vajalik) – esimene samm rammu poole.",
     price: "€0.00",
     image: "/alge.svg",
