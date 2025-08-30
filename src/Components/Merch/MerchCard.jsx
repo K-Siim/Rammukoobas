@@ -40,15 +40,6 @@ const MerchCard = () => {
       images: ["/PUSA-LUKUGA-E.jpg", "/PUSA-LUKUGA-T.jpg", "/PUSA-LUKUGA-K.jpg"]
     },
     {
-      id: 5,
-      name: "PUSA KAPUUTSIGA",
-      brand: "Premium",
-      sizes: ["XS", "S", "M", "L", "XL", "2XL", "3XL", "4XL", "5XL"],
-      clubPrice: 45,
-      regularPrice: 55,
-      images: ["/PUSA-ULEPEA-E.jpg", "/PUSA-ULEPEA-T.jpg"]
-    },
-    {
       id: 6,
       name: "PIKAD PÜKSID",
       brand: "Premium",
@@ -64,16 +55,7 @@ const MerchCard = () => {
       sizes: ["S", "M", "L", "XL", "2XL", "3XL"],
       clubPrice: 20,
       regularPrice: 30,
-      images: ["/LUHKA-LOGO-ALL.jpg", "/LUHKA-LOGO-ULEVAL.jpg"]
-    },
-    {
-      id: 8,
-      name: "T-särk MEESTE B&C E190",
-      brand: "B&C",
-      sizes: ["XS", "S", "M", "L", "XL", "2XL", "3XL", "4XL", "5XL"],
-      clubPrice: 15,
-      regularPrice: 20,
-      images: ["/T-M-E.jpg"]
+      images: ["/LUHKA-LOGO-ALL.jpg",]
     },
     {
       id: 9,
