@@ -219,6 +219,27 @@ const MerchCard = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
         {products.map(product => <ProductCard key={product.id} product={product} />)}
       </div>
+
+      <div className="mt-16 text-center">
+        <div className="max-w-2xl mx-auto">
+          <p className="text-lg text-gray-600 mb-4">
+            Tellimiseks kirjuta{' '}
+            <a 
+              href="mailto:rammuklubi@gmail.com" 
+              className="text-blue-600 hover:text-blue-800 font-medium underline hover:no-underline transition-all duration-200"
+            >
+              rammuklubi@gmail.com
+            </a>
+            {' '}või helista:{' '}
+            <a 
+              href="tel:+37256904999" 
+              className="text-blue-600 hover:text-blue-800 font-medium underline hover:no-underline transition-all duration-200"
+            >
+              +372 56904999
+            </a>
+          </p>
+        </div>
+      </div>
     </div>
   );
 };

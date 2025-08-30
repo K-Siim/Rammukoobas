@@ -10,12 +10,7 @@ const Merch = () => {
                     <h1 className="text-4xl font-bold text-gray-900 text-center mb-8">
                         Rammuklubi Merch – rohkem kui varustus, see on sinu jõu sümbol.
                     </h1>
-                    <p className="text-lg text-gray-600 text-center mb-16">
-                        Soeta meie merchi.
-                        Tellimiseks kirjuta <a href="mailto:rammuklubi@gmail.com">rammuklubi@gmail.com</a> või helista: <a href="tel:+37256904999">+372 56904999
 
-                        </a>
-                    </p>
                 </div>
             </div>
 
