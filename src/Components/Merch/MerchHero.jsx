@@ -12,7 +12,7 @@ const Merch = () => {
                     </h1>
                     <p className="text-lg text-gray-600 text-center mb-16">
                         Soeta meie merchi.
-                        Oma soovist kirjuta meile meil: <a href="mailto:rammuklubi@gmail.com">rammuklubi@gmail.com</a> või helista: <a href="tel:+37256904999">+372 56904999
+                        Tellimiseks kirjuta <a href="mailto:rammuklubi@gmail.com">rammuklubi@gmail.com</a> või helista: <a href="tel:+37256904999">+372 56904999
 
                         </a>
                     </p>
