@@ -14,19 +14,19 @@ export default function Hero() {
         className="relative z-10 max-w-4xl mx-auto text-center space-y-6"
       >
         <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight">
-          Rammuklubi MTÜ
+          MTÜ Rammuklubi 
         </h1>
 
         <div className="space-y-4 md:space-y-6 text-base sm:text-lg md:text-xl leading-relaxed">
           <p className="text-gray-800">
-            Rammuklubi MTÜ loodi 2021 aastal eesmärgiga tuua kokku jõutõstmise ja
+            MTÜ Rammuklubi loodi 2021 aastal eesmärgiga tuua kokku jõutõstmise ja
             rammualade inimesed Tartus ja lähiümbruses ning luua klubi liikmetele
             spetsiaalne treeningruum, mis on täna tuntud kui Rammukoobas.
           </p>
 
           <p className="text-gray-700">
             Aktiivsemad klubi liikmed korraldavad võistlusi ja treeningpäevi
-            Rammukoopas. Nendest üritustest leiab infot meie Facebook ja Instagrami
+            Rammukoopas. Nendest üritustest leiab infot meie Facebooki ja Instagrammi
             leheküljelt. Samuti käivad klubi liikmed ise võistlemas nii Eestis kui
             välisriikides.
           </p>
