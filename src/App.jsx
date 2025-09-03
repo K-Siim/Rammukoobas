@@ -1,4 +1,4 @@
-import { Routes, Route, useLocation } from 'react-router-dom';
+import { Routes, Route,  } from 'react-router-dom';
 import Navbar from './Components/Navbar';
 import Home from './Pages/Home';  
 import Gallery from './Pages/Gallery';
@@ -11,10 +11,17 @@ import ScrollToTop from './Components/ScrollToTop';
 
 
 
-
 function App() {
   return (
-    <>
+    <div
+      className="min-h-screen"
+        style={{
+    backgroundImage: "url('/logo.png')",
+    backgroundRepeat: "repeat",
+    backgroundSize: "120px 120px",
+    filter: "opacity(0.91) " 
+  }}
+    >
       <ScrollToTop />
       <Navbar />
       <Routes>
@@ -25,8 +32,9 @@ function App() {
         <Route path="/merch" element={<Merch />} />
       </Routes>
       <Footer />
-    </>
+    </div>
   )
 }
+
 
 export default App
