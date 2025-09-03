@@ -10,7 +10,7 @@ const MembersPage = () => {
       id: 1,
       name: "Tiit Kallavus",
       description: "Rammukoopa looja",
-      image: "/tiit.jpg",
+      image: "/TiitKallavus.jpg",
       coach: "Rauno Heinla",
       nationality: "🇪🇪 Eesti",
       achievements: [
@@ -25,7 +25,7 @@ const MembersPage = () => {
       id: 2,
       name: "Markus Tank",
       description: "Tulevikulootus ja paljude Eesti rekordite omanik",
-      image: "/Tank.jpg",
+      image: "/MarkusTank.jpg",
       coach: "Rauno Heinla",
       nationality: "🇪🇪 Eesti",
       achievements: [
@@ -41,7 +41,7 @@ const MembersPage = () => {
       id: 3,
       name: "Janary Kask",
       description: "Tulevikulootus, distantsile vaatamata on tähtis osa meie seltskonnast",
-      image: "/janary.jpg",
+      image: "/JanaryKask.jpg",
       coach: "Treenib iseseisvalt",
       nationality: "🇪🇪 Eesti",
       achievements: [
@@ -57,7 +57,7 @@ const MembersPage = () => {
       id: 4,
       name: "Kalev Mettus",
       description: "Kalev teeb klubi sotsiaalmeedia kontenti ja tema kaudu on paljud tee Rammukoopasse leidnud",
-      image: "/Kalev.jpg",
+      image: "/KalevMettus.jpg",
       coach: "Treenib iseseisvalt",
       nationality: "🇪🇪 Eesti",
       achievements: [
@@ -70,7 +70,7 @@ const MembersPage = () => {
       id: 5,
       name: "Henry Rosin",
       description: "Rammukoopa logo ja disaini looja. Kõige raskem Rammukoopa rammumees",
-      image: "/Henry.jpg",
+      image: "/HenryRosin.jpg",
       coach: "Treenib iseseisvalt",
       nationality: "🇪🇪 Eesti",
       achievements: [
@@ -82,7 +82,7 @@ const MembersPage = () => {
       id: 6,
       name: "Cäroly Paatsi",
       description: "Esimene ja hetkel ainuke õrnema soo esindaja. Lootustandev rammunaine",
-      image: "/Caroly.jpg",
+      image: "/CarolyPaatsi.jpg",
       coach: "Treenib iseseisvalt",
       nationality: "🇪🇪 Eesti",
       achievements: [
@@ -95,7 +95,7 @@ const MembersPage = () => {
       id: 7,
       name: "Enrike Eensalu",
       description: "Ainuke diagnoosiga Rammukoopa rammumees. 2020 aastal diagnoositi psühhootiline häire skisofreenia sümptomitega. Enrike on ehe näide, et rasked ajad ei takista trenni tegemist ja on meie klubi värvikas liige",
-      image: "/Enrike.jpg",
+      image: "/EnrikeEensalu.jpg",
       coach: "Treenib iseseisvalt",
       nationality: "🇪🇪 Eesti",
       achievements: [
@@ -106,7 +106,7 @@ const MembersPage = () => {
       id: 8,
       name: "Kaspar Narits",
       description: "Klubi kehatohter, massöör ja tulevikus ka treener?",
-      image: "/Kasparix.jpg",
+      image: "/KasparNarits.jpg",
       coach: "Treenib iseseisvalt",  
       nationality: "🇪🇪 Eesti",
       achievements: [
@@ -117,7 +117,7 @@ const MembersPage = () => {
       id: 9,
       name: "Hendrik Hiiemäe",
       description: "Tulevikulootus",
-      image: "/Hendrik.jpg",
+      image: "/HenrikHiiemäe.jpg",
       coach: "Rauno Heinla",
       nationality: "🇪🇪 Eesti",
       achievements: [
@@ -128,7 +128,7 @@ const MembersPage = () => {
       id: 10,
       name: "Kaspar Raudsepp",
       description: "Tulevikulootus",
-      image: "/Kaspar.jpg",
+      image: "/KasparRaudsepp.jpg",
       coach: "Treenib iseseisvalt",
       nationality: "🇪🇪 Eesti",
       achievements: [
@@ -139,7 +139,7 @@ const MembersPage = () => {
       id: 11,
       name: "Veiko Tikker",
       description: "Ainuke Rammukoopa liige, kes sõidab tsikliga",
-      image: "/veiko.jpg",
+      image: "/VeikoTikker.jpg",
       coach: "Treenib iseseisvalt",
       nationality: "🇪🇪 Eesti",
       achievements: [
@@ -150,7 +150,7 @@ const MembersPage = () => {
       id: 12,
       name: "Marcus Paulson",
       description: "Haardevõlur",
-      image: "/marcus.jpg",
+      image: "/CR5_5850.jpg",
       coach: "Treenib iseseisvalt",
       nationality: "🇪🇪 Eesti",
       achievements: [
@@ -161,7 +161,7 @@ const MembersPage = () => {
       id: 13,
       name: "Rihard Laksaar",
       description: "Pesamuna",
-      image: "/rihard.jpg",
+      image: "RihardLaksaar.jpg",
       coach: "Treenib iseseisvalt",
       nationality: "🇪🇪 Eesti",
       achievements: []

@@ -20,6 +20,12 @@ const priceCards = [
     image: "/yhis.svg",
   },
   {
+    title: "KLUBILIIGE",
+    description: "Klubi moraalne toetaja, kes aitab ning toetab meid igas olukorras.",
+    price: "€20.00",
+    image: "/image0.png",
+  },
+  {
     title: "RÄNDKARU",
     description: "Ühekordne ligipääs – võimalus proovida või treenida sobival ajal.",
     price: "€5.00",

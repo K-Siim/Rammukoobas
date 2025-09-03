@@ -28,7 +28,7 @@ const MerchCard = () => {
       sizes: ["XS", "S", "M", "L", "XL", "2XL"],
       clubPrice: 55,
       regularPrice: 65,
-      images: ["/KLEIT-E.jpg"]
+      images: ["/KLEIT-E.jpg", "/KLEIT-T.jpg"]
     },
     {
       id: 4,
@@ -83,6 +83,7 @@ const MerchCard = () => {
     const [touchStart, setTouchStart] = useState(0);
     const [touchEnd, setTouchEnd] = useState(0);
     const [manualChange, setManualChange] = useState(false);
+    const useContainFit = product.name === 'PIKAD PÜKSID' || product.name === 'NOKAMÜTS';
 
     const nextImage = (e) => {
       e.stopPropagation();
@@ -148,7 +149,7 @@ const MerchCard = () => {
                 key={index}
                 src={img} 
                 alt={product.name}
-                className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ease-in-out ${index === currentImageIndex ? 'opacity-100 z-10' : 'opacity-0 z-0'}`}
+                className={`absolute inset-0 w-full h-full ${useContainFit ? 'object-contain p-4 bg-white' : 'object-cover'} transition-opacity duration-700 ease-in-out ${index === currentImageIndex ? 'opacity-100 z-10' : 'opacity-0 z-0'}`}
               />
             ))}
           </div>
