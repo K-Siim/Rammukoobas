@@ -5,7 +5,7 @@ const Footer = () => {
         <div className="flex-1 flex items-center">
           <div className="text-white text-xs">
             <p className="font-semibold">Toeta meid!</p>
-            <p className="text-gray-300">Rammuklubi MTÜ</p>
+            <p className="text-gray-300">MTÜ Rammuklubi</p>
             <p className="font-mono text-gray-300">EE2722200221077993385</p>
           </div>
         </div>
