@@ -20,7 +20,7 @@ const priceCards = [
     image: "/yhis.svg",
   },
   {
-    title: "KLUBILIIGE",
+    title: "KARUPERE LIIGE",
     description: "Klubi moraalne toetaja, kes aitab ning toetab meid igas olukorras.",
     price: "€20.00",
     image: "/image0.png",

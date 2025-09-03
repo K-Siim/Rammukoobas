@@ -7,6 +7,11 @@ import Prices from './Pages/Prices';
 import Merch from './Pages/Merch';
 import Footer from './Components/Footer';
 import ScrollToTop from './Components/ScrollToTop';
+
+
+
+
+
 function App() {
   return (
     <>

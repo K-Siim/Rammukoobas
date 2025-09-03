@@ -26,7 +26,7 @@ export default function Hero() {
 
           <p className="text-gray-700">
             Aktiivsemad klubi liikmed korraldavad võistlusi ja treeningpäevi
-            Rammukoopas, nendest üritustest leiab infot meie Facebook ja Instagrami
+            Rammukoopas. Nendest üritustest leiab infot meie Facebook ja Instagrami
             leheküljelt. Samuti käivad klubi liikmed ise võistlemas nii Eestis kui
             välisriikides.
           </p>
