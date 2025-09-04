@@ -229,14 +229,14 @@ const MerchCard = () => {
               href="mailto:rammuklubi@gmail.com" 
               className="text-blue-600 hover:text-blue-800 font-medium underline hover:no-underline transition-all duration-200"
             >
-              rammuklubi@gmail.com
+              rammuklubi at gmail.com
             </a>
             {' '}või helista:{' '}
             <a 
               href="tel:+37256904999" 
               className="text-blue-600 hover:text-blue-800 font-medium underline hover:no-underline transition-all duration-200"
             >
-              +372 56904999
+              +372 5 kuus 904999
             </a>
           </p>
         </div>
