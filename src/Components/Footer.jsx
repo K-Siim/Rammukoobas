@@ -6,7 +6,7 @@ const Footer = () => {
           <div className="text-white text-xs">
             <p className="font-semibold">Toeta meid!</p>
             <p className="text-gray-300">MTÜ Rammuklubi</p>
-            <p className="font-mono text-gray-300">EE2722200221077993385</p>
+            <p className="font-mono text-gray-300">EE272200221077993385</p>
           </div>
         </div>
         <a href="/" className="inline-flex items-center" aria-label="Avaleht">
